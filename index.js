@@ -20,6 +20,3 @@ mongoose.connect(process.env.DB_URL,{
 app.listen( PORT ,()=>{
     console.log(`Server is listening on port ${PORT}`);
 })
-
-//blessinggianna7@gmail.com
-//blessinggianna7
