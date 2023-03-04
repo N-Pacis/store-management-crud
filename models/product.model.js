@@ -11,6 +11,10 @@ const productSchema= new mongoose.Schema({
     price:{
         type:Number,
         required: true
+    },
+    registered_by: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
     }
 })
 

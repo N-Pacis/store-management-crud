@@ -6,6 +6,7 @@ exports.registerProduct = async(req,res)=>{
         product.name = req.body.name
         product.description = req.body.description
         product.price = req.body.price
+        product.registered_by = req.user.id
 
         await product.save()
 
